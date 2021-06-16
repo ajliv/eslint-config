@@ -1,0 +1,27 @@
+{
+  "name": "@ajliv/eslint-config",
+  "version": "0.0.0-development",
+  "description": "Common ESLint configuration",
+  "main": "index.js",
+  "author": "ajliv <livingston.aj@gmail.com> (https://ajliv.in)",
+  "repository": "https://github.com/ajliv/eslint-config",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "prettier": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
